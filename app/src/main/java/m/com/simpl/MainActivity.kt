@@ -22,7 +22,5 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
         setContentView(R.layout.activity_main)
         radio_button_balance.setOnCheckedChangeListener(this)
         radio_button_upi.setOnCheckedChangeListener(this)
-
-
     }
 }
