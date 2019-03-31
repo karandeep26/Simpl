@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simpl</string>
+    <string name="pay_bill">Pay BILL</string>
+    <string name="upi_payment_description_text">A payment request will be sent to your VPA</string>
+    <string name="upi">UPI</string>
+    <string name="pay_using_title">Pay using</string>
+    <string name="bill_amount_hint">Enter Bill amount</string>
+    <string name="change_contact_button_text">change</string>
+</resources>
