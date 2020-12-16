@@ -2,7 +2,7 @@ name: Android CI
 
 on:
  repository_dispatch:
-     branches: [ master ]
+#      branches: [ master ]
 jobs:
   build:
 
@@ -10,6 +10,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.client_payload.branch || 'master' }}
+    
     - name: set up JDK 1.8
       uses: actions/setup-java@v1
       with:
